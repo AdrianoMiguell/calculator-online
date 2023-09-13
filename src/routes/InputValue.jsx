@@ -13,10 +13,10 @@ const InputValue = () => {
   const [number2, setNumber2] = useState();
   const [operation = "+", setOperation] = useState();
   const tipesOperations = [
-    { id: 1, sel: "selected", op: "+" },
-    { id: 2, sel: "", op: "-" },
-    { id: 3, sel: "", op: "*" },
-    { id: 4, sel: "", op: "/" },
+    { sel: "selected", op: "+" },
+    { sel: "", op: "-" },
+    { sel: "", op: "*" },
+    { sel: "", op: "/" },
   ];
 
   console.log(Number(number1));
@@ -61,33 +61,3 @@ const InputValue = () => {
 };
 
 export default InputValue;
-
-// function Example() {
-//   const [selectValue, setSelectValue] = useState(1);
-//   const list = [
-//     { id: 1, name: "select 1" },
-//     { id: 2, name: "select 2" },
-//     { id: 3, name: "select 3" },
-//     { id: 4, name: "select 4" },
-//   ];
-
-//   function handleCreate(e) {
-//     e.preventDefault();
-//     alert(selectValue);
-//   }
-
-//   return (
-//     <div>
-//       <p>{selectValue}</p>
-//       <select
-//         value={selectValue}
-//         onChange={(e) => setSelectValue(e.target.value)}
-//       >
-//         {list.map((item, index) => (
-//           <option value={item.id}>{item.name}</option>
-//         ))}
-//       </select>
-//       <button onClick={handleCreate}>Click me</button>
-//     </div>
-//   );
-// }

@@ -1,14 +1,21 @@
+.divInputContainer{
+    display: grid;
+    gap: 25px;
+}
 .divInputContainer > form{
     display: grid;
     gap: 10px;
 }
 .divInputContainer > form .divSpaceInputs{
     display: flex;
+    align-items: center;
     gap: 10px;   
 }
 .divInputContainer > form .divSpaceInputs select{
-    padding: 0.5rem 1rem;
+    display: flex;
+    width: 40px;
     font-size: 18pt;
+    text-align: center;
     appearance: none;
 }
 .divInputContainer > form .divSpaceInputs input{
@@ -24,4 +31,7 @@
     padding: 2px;
     font-size: 15pt;
     margin: 2rem auto;
+}
+.dNone{
+    display: none;
 }
