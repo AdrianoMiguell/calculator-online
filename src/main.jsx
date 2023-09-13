@@ -8,10 +8,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./routes/Home.jsx";
 import Contacts from "./routes/Contacts.jsx";
 
-// const router = createBrowserRouter([
-//   { path: "/", element: <Home /> },
-//   { path: "/contact", element: <Contacts /> }
-// ]);
 const router = createBrowserRouter([
   {
     path: "/" ,

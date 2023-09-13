@@ -1,21 +1,23 @@
 .divInputContainer > form{
- 
     display: grid;
     gap: 10px;
-    
-}
-.divInputContainer > form legend{
-    font-size: 25pt;
 }
 .divInputContainer > form .divSpaceInputs{
     display: flex;
     gap: 10px;   
 }
+.divInputContainer > form .divSpaceInputs select{
+    padding: 0.5rem 1rem;
+    font-size: 18pt;
+    appearance: none;
+}
 .divInputContainer > form .divSpaceInputs input{
     border: none;
+    background-color: #3B3B3B;
     border-bottom: 4px solid #e5e5f5;
     padding: 2px;
     font-size: 15pt;
+    padding: 0.5rem;
 }
 .divInputContainer > form input[type="submit"]{
     display: inline-block;
